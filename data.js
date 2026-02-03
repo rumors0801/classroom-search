@@ -43,7 +43,7 @@ export const data = [
         Wednesday: '1000000',
         Thursday: '1100100',
         Friday: '1001100',
-        supplement: 'コンセントあり'
+        supplement: 'コンセントなし'
     },
     {
         class: 'A107',
@@ -208,3 +208,4 @@ export const data = [
         supplement: 'コンセントなし'
     },
 ];
+
