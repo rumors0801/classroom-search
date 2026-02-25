@@ -7,7 +7,7 @@ export const data = [
         Wednesday: '1100000',
         Thursday: '0111000',
         Friday: '0000000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A102',
@@ -16,7 +16,7 @@ export const data = [
         Wednesday: '1111000',
         Thursday: '1100000',
         Friday: '1011100',
-        supplement: 'コンセントあり'
+        supplement: 'あり'
     },
     {
         class: 'A104',
@@ -25,7 +25,7 @@ export const data = [
         Wednesday: '0111000',
         Thursday: '0101000',
         Friday: '1001000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A105',
@@ -34,7 +34,7 @@ export const data = [
         Wednesday: '1101000',
         Thursday: '1100100',
         Friday: '1010100',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A106',
@@ -43,7 +43,7 @@ export const data = [
         Wednesday: '1000000',
         Thursday: '1100100',
         Friday: '1001100',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A107',
@@ -52,7 +52,7 @@ export const data = [
         Wednesday: '1111000',
         Thursday: '1011100',
         Friday: '0101100',
-        supplement: 'コンセントあり'
+        supplement: 'あり'
     },
     {
         class: 'A108',
@@ -61,7 +61,7 @@ export const data = [
         Wednesday: '0011000',
         Thursday: '1001100',
         Friday: '0011000',
-        supplement: 'コンセントあり'
+        supplement: 'あり'
     },
     {
         class: 'A109',
@@ -70,7 +70,7 @@ export const data = [
         Wednesday: '0111000',
         Thursday: '1100100',
         Friday: '0010000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A110',
@@ -79,7 +79,7 @@ export const data = [
         Wednesday: '0111000',
         Thursday: '1000000',
         Friday: '0011000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A201',
@@ -88,7 +88,7 @@ export const data = [
         Wednesday: '1001000',
         Thursday: '1111000',
         Friday: '0111000',
-        supplement: 'コンセントあり'
+        supplement: 'あり'
     },
     {
         class: 'A202',
@@ -97,7 +97,7 @@ export const data = [
         Wednesday: '1199999',
         Thursday: '1101000',
         Friday: '1111100',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A203',
@@ -106,7 +106,7 @@ export const data = [
         Wednesday: '1010000',
         Thursday: '0111000',
         Friday: '1001000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A204',
@@ -115,7 +115,7 @@ export const data = [
         Wednesday: '0101000',
         Thursday: '0111000',
         Friday: '1110000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A206',
@@ -124,7 +124,7 @@ export const data = [
         Wednesday: '1111000',
         Thursday: '1000000',
         Friday: '0000000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A207',
@@ -133,7 +133,7 @@ export const data = [
         Wednesday: '0001000',
         Thursday: '0011000',
         Friday: '0011000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A208',
@@ -142,7 +142,7 @@ export const data = [
         Wednesday: '0010000',
         Thursday: '0011000',
         Friday: '0110000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A301',
@@ -151,7 +151,7 @@ export const data = [
         Wednesday: '0011000',
         Thursday: '0111000',
         Friday: '1100000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A302',
@@ -160,7 +160,7 @@ export const data = [
         Wednesday: '0100000',
         Thursday: '1001000',
         Friday: '1100000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A303',
@@ -169,7 +169,7 @@ export const data = [
         Wednesday: '0000000',
         Thursday: '0000000',
         Friday: '0000000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A304',
@@ -178,7 +178,7 @@ export const data = [
         Wednesday: '0000000',
         Thursday: '0100000',
         Friday: '1100000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A305',
@@ -187,7 +187,7 @@ export const data = [
         Wednesday: '0100000',
         Thursday: '0111000',
         Friday: '0000000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A306',
@@ -196,7 +196,7 @@ export const data = [
         Wednesday: '0111000',
         Thursday: '0011000',
         Friday: '0000000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
     {
         class: 'A307',
@@ -205,7 +205,7 @@ export const data = [
         Wednesday: '1100000',
         Thursday: '0100000',
         Friday: '1000000',
-        supplement: 'コンセントなし'
+        supplement: 'なし'
     },
 ];
 

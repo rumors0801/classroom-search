@@ -24,14 +24,14 @@ function makeTable(classNum, day){
             tdox.textContent = "空";
             tdox.classList.add('empty');
         } else {
-            tdox.textContent = "使用中";
+            tdox.textContent = "満";
             tdox.classList.add('occupied');
         }
         getElem.appendChild(tdox);
     }
     const tdSup = document.createElement("td");
     tdSup.textContent = data[classNum].supplement;
-    if(data[classNum].supplement == "コンセントあり"){
+    if(data[classNum].supplement == "あり"){
         tdSup.classList.add('has-socket');
     } else {
             tdSup.classList.add('no-socket');

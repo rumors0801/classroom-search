@@ -9,16 +9,24 @@ body {
     sans-serif;
 }
 
+
 .header_container{
     margin-top:0;
-    padding-top:min(2vw,2vh);
     margin-left:calc(-50vw + 50%); /*画面いっぱい*/
     width:100vw; /*画面いっぱい*/
+    height:min(18vw, 18vh);
+    background-color:rgb(0, 0, 0);
+    position: relative;
+}
+
+img.project_icon{
+    padding-top:min(1vw,1vh);
     height:min(16vw, 16vh);
-    background-color:rgb(32, 32, 156);
+    position:absolute;
 }
 
 .header1{
+    padding-top:min(1vw,1vh);
     color: rgb(214, 218, 241);
     font-family: "WDXL Lubrifont JP N", sans-serif;
     font-size: min(4vw,4vh); 
@@ -53,6 +61,7 @@ body {
 }
 
 .centerContents_container{
+    margin:auto;
     margin-top: 1vh;
 }
 
@@ -61,27 +70,28 @@ body {
 }
 
 .form_container select{
-    margin:0.1vw;
-    padding-left:1vw;
-    width:20%;
-    background-color:rgb(235, 235, 235);
-    border: 0.1vw solid #635b5b;
-    border-radius:1vw;
-    font-size:1.5vw;
+    margin:2px;
+    padding-left:15px;
+    width:100px;
+    background-color:rgb(255, 255, 255);
+    border: 0.1vw solid #000000;
+    border-radius:0.2vw;
+    font-size:15px;
 }
 
 .form_contents{
-    font-size:1.5vw
+    font-size:15px
 }
 
 .search_box{
-    margin-top:1vh;
-    border: 0.5vw solid #679cf1;
+    margin-top:10px;
+    border: 0.35vw solid #000000;
     border-radius:1vw;
     background-color:white;
     font-family:"WDXL Lubrifont JP N", sans-serif;
-    font-size:3vw;
-    color:blue;
+    font-size:30px;
+    color:rgb(0, 0, 0);
+    /* -webkit-text-stroke: 2px #f0f0f0; */
     width:50vw;
 }
 
@@ -91,13 +101,13 @@ body {
     background-color:rgb(255, 255, 255);
     border: 1px solid #000;
     border-radius:1vw;
-    margin-top:3vh;
+    margin-top:10px;
 
     padding:0.5vh;
 }
 
 tr.fastSeengEmptyClassroom_head_1 th{
-    background-color:rgb(43, 43, 146);
+    background-color:rgb(0, 0, 0);
     color:rgb(255, 255, 255);
 
     font-size: 35px;
@@ -107,7 +117,7 @@ tr.fastSeengEmptyClassroom_head_1 th{
 }
 
 tr.fastSeengEmptyClassroom_head_2 th{
-    background-color:rgb(62, 62, 134);
+    background-color:rgb(0, 0, 0);
     color:rgb(239, 241, 255);
 
     font-size: 15px;
@@ -131,6 +141,8 @@ tr.fastSeengEmptyClassroom_tr td{
     background-color:white;
     right:0px;
     border-radius:1vw 0 0 1vw;
+
+    z-index: -10;
 }
 .ourAdvertise_container{
     margin-top: 2vh;
@@ -141,42 +153,44 @@ tr.fastSeengEmptyClassroom_tr td{
 
 tr.ourAdvertise_tr th{
     text-align:left;
-    font-size: 1.5vw;
+    font-size: 10px;
 }
 tr.ourAdvertise_tr td{
     font-family: "WDXL Lubrifont JP N", sans-serif;
-    font-size: 1.5vw;
+    font-size: 15px;
 }
 
 .updateHistory_container{
-    margin-top:1vh;
-    margin-bottom:2vh;
+    margin-top:10px;
+    margin-bottom:10px;
     border-top: 0.1vw solid #000;
     border-bottom: 0.1vw solid #000;
     text-align:left;
 }
 
 tr.updateHistory_tr th{
-    font-size: 1.5vw;
+    font-size: 10px;
 }
 
 tr.updateHistory_tr td{
-    text-align:center;
-    font-size: 1vw;
+    text-align:left;
+    font-size: 8px;
 }
 
 .classroom-name {
     font-weight: bold;
-    background-color: #E1F5FE;
-    color: #01579B;
+    background-color: #ececec;
+    color: #000000;
 }
 
 .empty{
-    background-color:rgb(200, 255, 200);
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 }
 
 .occupied{
-    background-color:rgb(255, 200, 200);
+    background-color:rgb(0, 0, 0);
+    color:rgb(207, 207, 207);
 }
 
 .has-socket {
