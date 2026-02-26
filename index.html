@@ -13,13 +13,16 @@
 </head>
   <body>
     <div class="header_container">
+        <div href="https://x.com/RumorsYNU" class = "project_icon">
+            <img height = 16vh src="icon_rumors.png" alt="rumorsのアイコン" class = "project_icon">
+        </div>
         <div class = "header1">横浜国立大学　非公認</div>
         <div class = "header2">空き教室検索システム</div>
     </div>
     <div class = "body_container">
-        <div class = "map_container">
+        <!-- <div class = "map_container">
             <image src = "YNU_MAP_J.webp" id = "ynuMap">
-        </div>
+        </div> -->
         <div class = "centerContents_container" >
             <form action="searched.html">
                 <div class = "form_container">
@@ -47,7 +50,7 @@
             <br>
             <table class = "fastSeengEmptyClassroom_container">
                 <tr class = "fastSeengEmptyClassroom_head_1">
-                    <th colspan="9">今日の空き教室ピックアップ！</th>
+                    <th colspan="9">今日の空き教室！</th>
                 </tr>
                 <tr class = "fastSeengEmptyClassroom_head_2">
                     <th rowspan="1">教室</th>
@@ -58,7 +61,7 @@
                     <th>5限</th>
                     <th>6限</th>
                     <th>7限</th>
-                    <th rowspan="1">補足事項</th>
+                    <th rowspan="1">コンセント</th>
                 </tr>
                 <tbody id = "tbody"></tbody>
             </table>
@@ -84,9 +87,14 @@
                     <tr class = "updateHistory_tr">
                         <th colspan="2">更新履歴</th>
                     </tr>
-                    <tr class = "updateHistory_tr">
-                        <td>ver1.0</td>
-                        <td>初期リリース</td>
+                    <tr>
+                        <tr class = "updateHistory_tr">
+                            <td>ver1.0</td>
+                            <td>初期リリース</td>
+                        <tr class = "updateHistory_tr">
+                            <td>ver1.1</td>
+                            <td>デザイン・UIを改善</td>
+                        </tr>
                     </tr>
                 </table>
             </div>

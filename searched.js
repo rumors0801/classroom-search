@@ -35,15 +35,15 @@ function result(e){
                 tdFlag.textContent = "空";
                 tdFlag.classList.add('empty');
             } else {
-                tdFlag.textContent = "使用中";
+                tdFlag.textContent = "満";
                 tdFlag.classList.add('occupied');
             }
-            tr.appendChild(tdFlag);;
+            tr.appendChild(tdFlag);
         }
         
         const tdSup = document.createElement("td"); //補足
         tdSup.textContent = data[i].supplement;
-        if(data[i].supplement == "コンセントあり"){
+        if(data[i].supplement == "あり"){
             tdSup.classList.add('has-socket');
         } else {
             tdSup.classList.add('no-socket');
