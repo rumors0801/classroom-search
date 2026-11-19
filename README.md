@@ -1,2 +1,2 @@
 # 空き教室検索サイト
-https://shasha56.github.io/team-development-search-classroom/
+[公開ページ](https://rumors0801.github.io/classroom-search/)
