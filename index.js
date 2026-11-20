@@ -1,7 +1,15 @@
-import {data} from "./data.js";
+const response = await fetch("./datas/data2026fall.json");
+
+if (!response.ok) {
+    throw new Error(`JSONの読み込みに失敗: ${response.status}`);
+}
+
+const data = await response.json();
 
 const tbody = document.getElementById("tbody");
-const dataLength = data.length;
+
+const classRooms = Object.keys(data.classrooms);
+const dataLength = classRooms.length;
 
 const date = new Date();
 const daysJP = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -14,13 +22,13 @@ function makeTable(classNum, day){
     const getElem = document.getElementById("classroom" + String(classNum));
     
     const tdName = document.createElement("td");
-    tdName.textContent = data[classNum].class;
+    tdName.textContent = classRooms[classNum];
     tdName.classList.add('classroom-name');
     getElem.appendChild(tdName);
 
     for(let i=0;i<7;i++){
         const tdox = document.createElement("td");
-        if(data[classNum][day][i]=="0"){
+        if(data.classrooms[classRooms[classNum]].schedule[day][i] == 0){
             tdox.textContent = "空";
             tdox.classList.add('empty');
         } else {
@@ -30,11 +38,12 @@ function makeTable(classNum, day){
         getElem.appendChild(tdox);
     }
     const tdSup = document.createElement("td");
-    tdSup.textContent = data[classNum].supplement;
-    if(data[classNum].supplement == "あり"){
+    if(data.classrooms[classRooms[classNum]].hasOutlets){
+        tdSup.textContent = "あり";
         tdSup.classList.add('has-socket');
     } else {
-            tdSup.classList.add('no-socket');
+        tdSup.textContent = "なし";
+        tdSup.classList.add('no-socket');
     }
     getElem.appendChild(tdSup);
 }

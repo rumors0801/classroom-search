@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "academicYear": 2026,
+    "semester": "fall",
+    "periodsPerDay": 7,
+    "updatedAt": "2026-11-20"
+  },
+  "classrooms": {
+    "A101": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 1, 0, 0, 0, 0, 0],
+        "Tuesday": [1, 1, 0, 1, 0, 0, 0],
+        "Wednesday": [1, 1, 0, 0, 0, 0, 0],
+        "Thursday": [0, 1, 1, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A102": {
+      "building": "rikoA",
+      "hasOutlets": true,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 1, 0, 1, 0, 0, 0],
+        "Tuesday": [1, 1, 1, 0, 0, 0, 0],
+        "Wednesday": [1, 1, 0, 0, 0, 0, 0],
+        "Thursday": [1, 1, 0, 0, 0, 0, 0],
+        "Friday": [1, 1, 1, 1, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A104": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 1, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 1, 0, 0, 0, 0],
+        "Wednesday": [0, 1, 1, 1, 0, 0, 0],
+        "Thursday": [0, 0, 0, 1, 0, 0, 0],
+        "Friday": [1, 0, 0, 1, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A105": {
+      "building": "rikoA",
+      "hasOutlets": true,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [1, 1, 1, 0, 1, 0, 0],
+        "Tuesday": [0, 1, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 1, 0, 1, 1, 0, 0],
+        "Thursday": [1, 1, 0, 0, 1, 0, 0],
+        "Friday": [1, 0, 1, 1, 1, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A106": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [1, 1, 0, 1, 0, 0, 0],
+        "Tuesday": [1, 1, 0, 1, 0, 0, 0],
+        "Wednesday": [1, 1, 0, 0, 0, 0, 0],
+        "Thursday": [1, 1, 1, 1, 1, 0, 0],
+        "Friday": [1, 0, 1, 1, 1, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A107": {
+      "building": "rikoA",
+      "hasOutlets": true,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 1, 0, 0, 0, 0],
+        "Tuesday": [1, 1, 1, 1, 0, 0, 0],
+        "Wednesday": [1, 1, 1, 0, 0, 0, 0],
+        "Thursday": [1, 1, 1, 1, 0, 0, 0],
+        "Friday": [0, 1, 0, 1, 1, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A108": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [1, 0, 1, 1, 1, 0, 0],
+        "Tuesday": [1, 1, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 0, 1, 1, 0, 0, 0],
+        "Thursday": [1, 0, 0, 1, 1, 0, 0],
+        "Friday": [0, 1, 1, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A109": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 1, 0, 0, 0, 0, 0],
+        "Tuesday": [1, 1, 1, 1, 1, 0, 0],
+        "Wednesday": [0, 1, 1, 1, 0, 0, 0],
+        "Thursday": [1, 1, 0, 0, 1, 0, 0],
+        "Friday": [0, 0, 1, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A110": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 1, 0, 0, 0, 0, 0],
+        "Wednesday": [1, 1, 1, 1, 0, 0, 0],
+        "Thursday": [0, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 1, 1, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A201": {
+      "building": "rikoA",
+      "hasOutlets": true,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [1, 1, 1, 1, 1, 0, 0],
+        "Tuesday": [1, 1, 0, 1, 1, 0, 0],
+        "Wednesday": [1, 0, 0, 1, 0, 0, 0],
+        "Thursday": [1, 1, 0, 1, 0, 0, 0],
+        "Friday": [0, 1, 1, 1, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A202": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [1, 1, 1, 1, 0, 0, 0],
+        "Tuesday": [1, 1, 0, 1, 0, 0, 0],
+        "Wednesday": [1, 1, 0, 0, 0, 0, 0],
+        "Thursday": [1, 1, 0, 1, 0, 0, 0],
+        "Friday": [1, 1, 1, 1, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A203": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 1, 0, 0],
+        "Tuesday": [0, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 1, 0, 0, 0, 0, 0],
+        "Thursday": [1, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 1, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A204": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [1, 1, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 1, 0, 1, 0, 0, 0],
+        "Thursday": [0, 1, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A206": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 1, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [1, 1, 1, 1, 0, 0, 0],
+        "Thursday": [1, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A207": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [1, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 0, 0, 1, 0, 0, 0],
+        "Thursday": [0, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A208": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [1, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 0, 1, 0, 0, 0, 0],
+        "Thursday": [0, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 1, 1, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A301": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 0, 0, 0, 0, 0, 0],
+        "Thursday": [0, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A302": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [1, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 1, 1, 0, 0, 0, 0],
+        "Thursday": [0, 1, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A303": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 1, 1, 0, 0, 0],
+        "Wednesday": [0, 0, 0, 0, 0, 0, 0],
+        "Thursday": [0, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A304": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 0, 0, 0, 0, 0, 0],
+        "Thursday": [0, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A305": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 1, 0, 0, 0, 0, 0],
+        "Thursday": [0, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A306": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 1, 0, 0],
+        "Tuesday": [0, 1, 0, 0, 0, 0, 0],
+        "Wednesday": [0, 1, 0, 0, 0, 0, 0],
+        "Thursday": [0, 0, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    },
+    "A307": {
+      "building": "rikoA",
+      "hasOutlets": false,
+      "schedule": {
+        "Sunday": [0, 0, 0, 0, 0, 0, 0],
+        "Monday": [0, 0, 0, 0, 0, 0, 0],
+        "Tuesday": [0, 0, 0, 0, 0, 0, 0],
+        "Wednesday": [1, 1, 0, 0, 0, 0, 0],
+        "Thursday": [0, 1, 0, 0, 0, 0, 0],
+        "Friday": [0, 0, 0, 0, 0, 0, 0],
+        "Saturday": [0, 0, 0, 0, 0, 0, 0]
+      }
+    }
+  }
+}

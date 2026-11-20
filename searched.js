@@ -1,5 +1,12 @@
-import {data} from "./data.js"; //data.jsの配列を取得
-const dataLength = data.length; //配列のデータ数
+const response = await fetch("./datas/data2026fall.json");
+
+if (!response.ok) {
+    throw new Error(`JSONの読み込みに失敗: ${response.status}`);
+}
+
+const data = await response.json();
+const classRooms = Object.keys(data.classrooms);
+const dataLength = classRooms.length; //配列のデータ数
 
 const params = new URLSearchParams(window.location.search); //URLパラメータの取得
 const dayOfWeek = params.get('dayOfWeek'); //dayOfWeekの値を取得
@@ -11,7 +18,9 @@ const dayOfWeekArray = {
     Tuesday:"火曜日",
     Wednesday:"水曜日",
     Thursday:"木曜日",
-    Friday:"金曜日"
+    Friday:"金曜日",
+    Saturday:"土曜日",
+    Sunday:"日曜日"
 }
 
 const option = document.querySelectorAll('option');
@@ -25,13 +34,13 @@ function result(e){
         const tr = document.createElement("tr");
 
         const tdClass = document.createElement("td"); //教室名
-        tdClass.textContent = data[i].class;
+        tdClass.textContent = classRooms[i];
         tdClass.classList.add('classroom-name');
         tr.appendChild(tdClass);
 
         for(let j = 0; j < 7; j++){
             const tdFlag = document.createElement("td"); //n限目の空き状況
-            if(data[i][e][j] == "0"){
+            if(data.classrooms[classRooms[i]].schedule[e][j] == 0){
                 tdFlag.textContent = "空";
                 tdFlag.classList.add('empty');
             } else {
@@ -42,10 +51,11 @@ function result(e){
         }
         
         const tdSup = document.createElement("td"); //補足
-        tdSup.textContent = data[i].supplement;
-        if(data[i].supplement == "あり"){
+        if(data.classrooms[classRooms[i]].hasOutlets){
+            tdSup.textContent = "あり";
             tdSup.classList.add('has-socket');
         } else {
+            tdSup.textContent = "なし";
             tdSup.classList.add('no-socket');
         }
         tr.appendChild(tdSup);
@@ -62,6 +72,8 @@ function result(e){
     });
 }
 
-result(dayOfWeek);
-dayOfWeekText.textContent = dayOfWeekArray[dayOfWeek];
+if (dayOfWeek && dayOfWeekArray[dayOfWeek]) {
+    result(dayOfWeek);
+    dayOfWeekText.textContent = dayOfWeekArray[dayOfWeek];
+}
 // result("Monday"); //test用
