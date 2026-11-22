@@ -3,6 +3,7 @@
 <head>
     <title>空き教室検索結果</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="searched.css"> <!--CSSの読み込み-->
     <script type="module" src="searched.js"></script> <!--jsの読み込み-->
@@ -47,20 +48,22 @@
             </form>
             <br>
             <div id="dayofweek-text"></div>
-            <table class = "result_container">
-                <thead>
-                    <th rowspan="1">教室</th>
-                    <th>1限</th>
-                    <th>2限</th>
-                    <th>3限</th>
-                    <th>4限</th>
-                    <th>5限</th>
-                    <th>6限</th>
-                    <th>7限</th>
-                    <th rowspan="1">コンセント</th>
-                </thead>
-                <tbody id = "tbody"></tbody>
-            </table>
+            <div class="table_scroll">
+                <table class = "result_container">
+                    <thead>
+                        <th rowspan="1">教室</th>
+                        <th>1限</th>
+                        <th>2限</th>
+                        <th>3限</th>
+                        <th>4限</th>
+                        <th>5限</th>
+                        <th>6限</th>
+                        <th>7限</th>
+                        <th rowspan="1">コンセント</th>
+                    </thead>
+                    <tbody id = "tbody"></tbody>
+                </table>
+            </div>
         </div>        
     </div>
 </body>

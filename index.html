@@ -3,6 +3,7 @@
 <head>
     <title>空き教室検索</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css"> <!--CSSの読み込み-->
     <script type="module" src="index.js"></script> <!--jsの読み込み-->
     
@@ -47,24 +48,29 @@
                     </button>
                 </div>
             </form>
+            <p class="notice">
+                表示される空き教室情報は参考情報です。実際の使用状況は、教室入口や掲示等でご確認ください。
+            </p>
             <br>
-            <table class = "fastSeengEmptyClassroom_container">
-                <tr class = "fastSeengEmptyClassroom_head_1">
-                    <th colspan="9">今日の空き教室！</th>
-                </tr>
-                <tr class = "fastSeengEmptyClassroom_head_2">
-                    <th rowspan="1">教室</th>
-                    <th>1限</th>
-                    <th>2限</th>
-                    <th>3限</th>
-                    <th>4限</th>
-                    <th>5限</th>
-                    <th>6限</th>
-                    <th>7限</th>
-                    <th rowspan="1">コンセント</th>
-                </tr>
-                <tbody id = "tbody"></tbody>
-            </table>
+            <div class="table_scroll">
+                <table class = "fastSeengEmptyClassroom_container">
+                    <tr class = "fastSeengEmptyClassroom_head_1">
+                        <th colspan="9">今日の空き教室！</th>
+                    </tr>
+                    <tr class = "fastSeengEmptyClassroom_head_2">
+                        <th rowspan="1">教室</th>
+                        <th>1限</th>
+                        <th>2限</th>
+                        <th>3限</th>
+                        <th>4限</th>
+                        <th>5限</th>
+                        <th>6限</th>
+                        <th>7限</th>
+                        <th rowspan="1">コンセント</th>
+                    </tr>
+                    <tbody id = "tbody"></tbody>
+                </table>
+            </div>
         </div>
         <div class = "rightMenu_container">
             <div class = "ourAdvertise_container">
