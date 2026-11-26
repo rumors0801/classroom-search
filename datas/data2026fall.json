@@ -21,7 +21,7 @@
     },
     "A102": {
       "building": "rikoA",
-      "hasOutlets": true,
+      "hasOutlets": false,
       "schedule": {
         "Sunday": [0, 0, 0, 0, 0, 0, 0],
         "Monday": [0, 1, 0, 1, 0, 0, 0],
